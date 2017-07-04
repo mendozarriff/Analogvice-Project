@@ -1,0 +1,420 @@
+/***************************************
+
+
+	DEVICES NO SMALLER THAN 768PX
+
+
+
+****************************************/
+
+
+@media only screen and (min-width: 768px){
+
+	/**********************************
+				
+				Global Nav
+
+	***********************************/
+	
+	header{
+		background: #d9d9d9;
+		width: 100%;
+		margin: 0 auto;
+		text-align: center;
+	}
+	header h1{
+		width: 40%;
+		display: inline-block;
+		margin-left: 2%;
+	}
+
+	nav{
+		 width: 55%;
+		 display: inline-block;
+		 margin-right: 2%;	}
+
+	li{
+		display: inline;
+		border: none;
+		margin-left: 18px;
+		font-size: .75em;
+	}
+	#upcomingConcerts input[type=submit]:hover,#askedQuestion input[type=submit]:hover{
+	background: #000;
+	color: #fff;
+}
+
+	/**************************
+		
+	 Homepage and Reviews Page
+
+	****************************/
+
+	#heroArea{
+		width: 96%;
+		margin: 35px auto;
+		padding-bottom: 30px;
+		border: none;
+	}
+
+	#heroArea img{
+		width: 60%;
+		display: inline-block;
+	}
+
+	#heroAreaText{
+		width: 35%;
+		display: inline-block;
+		vertical-align: top;
+		margin-left: 20px;
+	}
+
+	#heroArea h2{
+		padding: 0;
+		margin-bottom: 10px;
+	}
+
+	#side{
+		width: 35%;
+		float: right;
+		margin-right: 2.3%;
+		border-top: 2px gray solid;
+	}
+
+	#side h3, #side p{
+		text-align: left;
+		padding: 15px 0 15px 15px;
+	}
+
+	#newsAndReviews{
+		width: 60%;
+		float: left;
+		border-right: 2px gray solid;
+		margin-left: 2.4%;
+		/*background: red;*/
+		
+	}
+
+	#upcomingConcerts{
+		border-top: 2px gray solid;
+		border-bottom: 2px gray solid;
+		padding: 20px 0;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	#askedQuestion{
+		border-bottom: 2px gray solid;
+		padding: 20px 0;
+		text-align: center;
+	}
+
+	#upcomingConcerts, #askedQuestion{
+		display: inline-block;
+	}
+	#upcomingConcerts input, #askedQuestion input{
+		background: #1aa3ff;
+		color: black;
+		font-size: 1.2em;
+		text-transform: uppercase;
+		font-family: 'ariel';
+		font-weight: bolder;
+		border: none;
+		margin-top: 8px;
+		box-shadow: 5px 5px 5px #888888;
+		width: 95%;
+		height: 50px;
+	}
+
+	footer{
+		clear: both;
+	}
+
+	/*****************************************
+
+				CONCERTS PAGE
+
+	*****************************************/
+
+	.concert-sections{
+		display: inline-block;
+		width: 40%;
+		/*background: gray;*/
+		margin: 3%;
+		/*text-align: center;*/
+	}
+
+	.concert-sections:nth-child(9){
+		border: none;
+	}
+
+	#allConcerts{
+		text-align: center;
+		width: 100%;
+	}
+
+	input[type=button]{
+	width: 100%;
+	height: 50px;
+	}
+
+
+	/***********************
+
+	  Revews Detail Page
+
+	************************/
+
+	#reviewArea, #newsArea{
+		width: 95%;
+		margin: 0 auto;
+		border-bottom: 2px gray solid;
+		padding-bottom: 20px;
+	}
+	
+	.bottom-form-inputs input[type="text"]{
+		width: 58%;
+	}
+
+	.bottom-form-inputs input[type="submit"]{
+		width: 35%;
+		margin-left: 10px;
+	}
+
+	/***********************
+
+	  		About Page
+
+	************************/
+
+	#contactInfo{
+		width: 35%;
+		display: inline-block;
+	}
+	#map{
+		width: 60%;
+		display: inline-block;
+		background: pink;
+		margin-top: 38px;
+	}
+
+	#contactMap{
+		margin: 0 auto;
+		width: 100%;
+		text-align: center;
+
+	}
+
+	#contactInfo{
+		text-align: left;
+		vertical-align: top;
+	}
+
+	#missionStatement{
+		border-top: 2px gray solid;
+		border-bottom: 2px gray solid;
+		margin: 30px auto;
+		padding-bottom: 30px;
+		width: 95%;
+	}
+
+	#theTeam{
+		width: 50%;
+		margin: 0 0 0 2%;
+	}
+
+
+}
+/***************************************
+
+
+	DEVICES NO SMALLER THAN 1024PX
+
+
+
+****************************************/
+@media only screen and (min-width: 1024px){
+	
+	#heroAreaText{
+		display: block;
+		width: 100%;
+		
+	}
+
+	#heroAreaText h2{
+		font-size: 2.1em;
+		padding: 10px 0;
+	}
+
+	#side{
+		display: inline-block;
+		margin-top: 30px;
+		border-top: none;
+	}
+
+	#side h3{
+		font-size: 1.8em;
+		padding: 10px 0 0 10px;
+	}
+
+
+	#askedQuestion{
+		border-bottom: none;
+	}
+
+	#heroArea{
+		display: inline-block;
+		width: 59%;
+		margin: 30px auto 0 auto;
+		height: auto;
+		min-height: 738px;
+		padding-right: 3.5%;
+		border-right: 2px gray solid;
+	}
+
+	#heroArea img{
+		width: 95%;
+		margin-left: 3.5%;
+	}
+
+	#newsAndReviews{
+		width: 95%;
+		margin-left: 2%;
+		border-right: none;
+	}
+	#newsAndReviews p{
+		display: block;
+	}
+
+
+	/**************************
+
+				News 
+	
+	****************************/
+
+
+	#newsArea, #reviewArea{
+		width: 60.5%;
+		display:block;
+		float: left;
+		margin-left: 2%;
+		border-right: 2px gray solid;
+		border-bottom: none;
+	}
+
+	#myFormNews, #myFormReviews{
+		width: 34%;
+		display: inline-block;
+		padding: 0  15px;
+		text-align: left;
+	}
+
+	#myFormNews h3, #myFormReviews h3{
+		font-size: 1.8em;
+		margin-bottom: 20px;
+	}
+
+	#myFormNews input[type="submit"],#myFormNews input[type="text"]  {
+		width: 100%;
+	}
+
+	#heroArea{
+		float: left;
+	}
+
+	/******************************
+			
+			Concerts Section
+
+	******************************/
+
+	#myFormConcert{
+		display: inline-block;
+		width: 30%;
+		vertical-align: top;
+		margin-top: 60px;
+	}
+
+	#myFormConcert h3{
+		font-size: 1.8em;
+		margin-bottom: 20px;
+	}
+
+	#myFormConcert input[type=submit], #myFormConcert input[type=text]{
+		width: 100%;
+	}
+
+	#allConcerts{
+		width: 67%;
+		border-right: 2px gray solid;
+		display: inline-block;
+		margin-top: 40px;
+	}
+
+	#allConcerts h1{
+		font-size: 1.8em;
+	}
+
+	.concert-sections{
+		width: 42%;
+		margin: 3%;
+	}
+
+
+/*****************************
+
+			Reviews
+
+*****************************/
+	.nrsections p{
+	float: right;
+	width: 100%;
+	font-size: 1.2em;
+	}
+
+	.nrsections h3{
+		font-size: 1.4em;
+	}
+
+	.review-text{
+		width: 57%;
+	}
+
+	#myFormReviews input[type="submit"],#myFormReviews input[type="text"]  {
+		width: 100%;
+	}
+
+	/*****************************
+
+				About
+
+	*****************************/
+
+	.team-description p{
+		margin-bottom: 10px;
+		font-size: 1.2em; 
+	}
+
+	.team-description p:nth-child(3){
+		display: block;
+	}
+
+	.team-description{
+		width: 65%;
+	}
+
+	#theTeam{
+		width: 95%;
+	}
+
+	.team{
+		width: 26%;
+	}
+
+	#map{
+		width: 50%;
+	}
+	
+}
+

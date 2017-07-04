@@ -1,0 +1,429 @@
+
+body{
+	width: 100%;
+	margin: 0 auto;
+	background: #f2f2f2;
+}
+
+img{
+	display: block;
+	width: 100%;
+}
+h1, h2, h3, h4, p, i, ul, input, li, div, a{
+	margin: 0;
+	padding: 0;
+}
+
+a{
+	text-decoration: none;
+}
+
+header h1{
+	height: 120px;
+	background: #262626;
+	text-align: center;
+	color: #fff;
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size: 3em;
+}
+
+header h1:hover, footer h1:hover{
+	color:#1aa3ff;
+}
+
+ul{
+	list-style: none;
+}
+nav{
+	text-align: center;
+	background: #d9d9d9;
+}
+
+nav a{
+	cursor: pointer;
+	color: #262626;
+	font-size: 1.2em;
+}
+nav a:hover{
+	color:#1aa3ff;
+}
+
+.fa{
+	font-size: 1.5em;
+	margin-right: 5px;
+}
+nav  a.visited {
+	color: #1aa3ff;
+}
+
+li{
+	height: 50px;
+	border-bottom: 2px gray solid;
+	padding-top: 30px;
+	padding-bottom: 10px;
+}
+
+li:nth-child(4){
+	border: none;
+}
+
+#heroArea{
+	width: 95%;
+	margin: 10px auto 15px auto;
+	border-bottom: 2px gray solid;
+	padding-bottom: 15px;
+}
+
+#heroArea h2{
+	padding: 15px 0;
+}
+
+
+#myForm, #myFormNews, #myFormReviews{
+	text-align: center;
+	margin: 30px auto;
+	width: 100%;
+}
+
+#myForm h3{
+	text-align: left;
+	width: 95%;
+	margin: 0 auto 30px auto;
+}
+
+#myFormConcert{
+	display: none;
+}
+
+form input{
+	margin: 0 auto;
+	width: 95%;
+	height: 50px;
+}
+
+input[type=text]{
+	padding-left: 10px;
+}
+
+form input[type=submit]{
+	background: #1aa3ff;
+	color: black;
+	font-size: 1.2em;
+	text-transform: uppercase;
+	font-family: 'ariel';
+	font-weight: bolder;
+	border: none;
+	margin-top: 8px;
+	box-shadow: 5px 5px 5px #888888;
+}
+input[type=submit]:hover{
+	background: #000;
+	color: #fff;
+}
+#upcomingConcerts, #askedQuestion{
+	display: none;
+}
+
+#newsAndReviews{
+	width: 95%;
+	margin: 0 auto;
+	border-top: 2px gray solid;
+	padding-top: 20px;
+	display: block
+}
+
+.band-descpr{
+	display: inline-block;
+	width: 50%;
+	font-size: 1.2em;
+	vertical-align: top;
+	padding-left: 5%;
+}
+
+.band-descpr p{
+	display: none;
+}
+.nrsections h4{
+	margin-bottom: 15px;
+}
+.nrsections{
+	width: 100%;
+	border-bottom: 2px gray solid;
+	padding: 15px 0;
+
+}
+
+.review-text{
+	width: 50%;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 20px;
+}
+
+.nrsections p{
+	display: none;
+}
+
+.nrsections:nth-child(7){
+	border: none;
+}
+
+.band-pics{
+	width: 40%;
+	display: inline-block;	
+}
+
+footer{
+	
+	text-align: center;
+	margin: 0 auto;
+	width: 95%;
+	border-top: 2px gray solid;
+	clear:both;
+}
+
+
+footer h1{
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size: 1.8em;
+	color: #fff;
+	height: 100px;
+	width: 50%;
+	background: #262626;
+	text-align: center;
+	margin: 30px auto 0 auto;
+}
+
+
+/***********************************************
+
+			Reviews Detail Page
+
+***********************************************/
+
+
+#reviewArea{
+	margin: 0 auto;
+	width: 95%;
+}
+/***********************************************
+
+				About Us Page
+
+***********************************************/
+
+
+#email:before{
+	content:"Email: ";
+	color: #000;
+	font-weight: bold;
+}
+
+#phone:before{
+	content: "Telephone: ";
+	font-weight: bold;
+}
+
+#address:before{
+	content: "Address: ";
+	font-weight: bold;
+}
+#contactInfo{
+	width: 90%;
+	margin: 40px auto 0 auto;
+}
+
+#contactInfo h1{
+	margin-bottom: 20px;
+}
+
+#contactInfo p{
+	margin: 20px 0;
+}
+
+#address span{
+	margin-left: 75px;
+}
+
+#contactInfo a{
+	color: #000;
+}
+
+#contactInfo a:hover{
+	color:#1aa3ff;
+}
+
+#map{
+	width: 90%;
+	border: 2px gray solid;
+	margin: 0 auto;
+}
+
+#missionStatement{
+	width: 90%;
+	margin: 0 auto;
+}
+
+#missionStatement h1{
+	text-align: center;
+	padding: 20px 0;
+}
+
+#missionStatement p{
+	line-height: 25px;
+}
+
+.team{
+	width: 40%;
+	height: 30%;
+	display: inline-block;
+	margin-bottom: 50px;
+	min-width: 100px
+}
+#theTeam img{
+	width: 100%;
+}
+
+#theTeam{
+	width: 90%;
+	margin: 0 auto;
+	min-width: 300px;
+}
+
+#theTeam h1{
+	padding: 20px 0;
+}
+.team-description{
+	display: inline-block;
+	width: 45%;
+	height: 30%;
+	vertical-align: top;
+	margin: 10px 0 0 40px;
+	min-width: 100px;
+}
+
+
+.team-description p:nth-child(3){
+	display: none;
+}
+
+.team:nth-child(4){
+	margin-bottom: 200px;
+}
+
+/********************************
+
+			CONCERTS
+
+********************************/
+
+
+.concert-sections{
+	width: 95%;
+	margin: 10px auto 0 auto;
+	height: 220px;
+	display: block;
+	border-bottom: 2px gray solid;
+	text-align: center;
+}
+.concert-sections:nth-child(10){
+	border-bottom: none;
+}
+.concert-sections:nth-child(1){
+	height: 257px;
+}
+.concert-date{
+	font-size: 1.2em;
+	display: inline-block;
+	text-align: center;
+	width: 100px;
+	height: 100px;
+	vertical-align: top;
+	margin-top: 20px;
+	margin-right: 2%;
+	border: 2px gray solid;
+}
+
+.concert-date h2{
+	margin-top: 18px;
+}
+
+
+.concert-description{
+	width: 60%;
+	display: inline-block;
+	margin-top: 25px;
+	/*min-width: 100px;*/
+	text-align: left;
+}
+input[type=button]{
+	background: #1aa3ff;
+	color: black;
+	font-size: 1.1em;
+	text-transform: uppercase;
+	font-weight: bolder;
+	border: none;
+	margin-top: 8px;
+	box-shadow: 5px 5px 5px #888888;
+	width: 100%;
+	height: 70px;
+	margin-top: 40px;
+}
+
+/***********************************
+			
+				FAQ
+
+***********************************/
+
+
+#faq-section{
+	width: 90%;
+	margin: 50px auto 100px auto;
+
+}
+#faq-section h1{
+	font-size: 1.5em;
+	margin-bottom: 20px;
+}
+
+.faq h2{
+	font-size: 1.1em;
+	margin: 20px 0;
+}
+
+.faq p:nth-child(2){
+	margin: 10px 0;
+}
+
+.faq{
+	border-bottom: 2px gray solid;
+	padding-bottom: 20px;
+}
+
+.faq:nth-child(4){
+	border-bottom: none;
+}
+
+#newsArea{
+	width: 95%;
+	margin: 10px auto 15px auto;
+	padding-bottom: 15px;
+	border-bottom: 2px gray solid;
+}
+
+#newsArea h2{
+	padding: 15px 0;
+}
+
+@media only screen and (max-width: 400px){
+	.concert-sections h1{
+		font-size: 1.8em;
+	}
+
+	
+}
+
+
+
+
